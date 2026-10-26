@@ -1,5 +1,5 @@
 # 04Exercise-DomArrayInput
-# As part of the Frontend 2 course and Fullstack Webbdevelopement Open Source program this was teh fourth exercise from lecture 2 (week 1).
+# As part of the Frontend 2 course and Fullstack Webbdevelopement Open Source program this was the fourth exercise from lecture 2 (week 1).
 
 Student Data Filter
 
