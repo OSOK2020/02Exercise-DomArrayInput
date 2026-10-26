@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Filtrera elever & lärare på olika sätt</title>
+</head>
+<body>
+    <header>
+        <h1>Javascript - Övningsuppgifter 
+            (Checkboxes & radio-buttons med objekt)</h1>
+    </header>
+    <main>
+        <button id="getData">Filtrera</button>
+        <label for="teacherInput">I'm a teacher, I promise</label>
+        <input type="checkbox" name="teacher" id="teacherInput">
+        <label for="yearInput">Välj årskurs</label>
+        <select name="years" id="yearInput">
+            <option value=""></option>
+            <option value="1">År 1</option>
+            <option value="2">År 2</option>
+            <option value="3">År 3</option>
+        </select>
+        <fieldset>
+            <legend>Filtrera här:</legend>
+            <label for="all">Alla utbildningar</label>
+            <input type="radio" name="education" id="all">
+            <label for="Frontend">Frontend</label>
+            <input type="radio" name="education" id="Frontend">
+            <label for="Backend">Backend</label>
+            <input type="radio" name="education" id="Backend">
+            <label for="Fullstack"> Fullstack</label>
+            <input type="radio" name="education" id="Fullstack">
+        </fieldset>
+        <fieldset>
+            <legend>Filtrera här:</legend>
+            <label for="all">Alla städare</label>
+            <input type="checkbox" name="city" id="allCities">
+            <label for="Stockholm">Stockholm</label>
+            <input type="checkbox" name="city" id="Stockholm">
+            <label for="Lund">Lund</label>
+            <input type="checkbox" name="city" id="Lund">
+            <label for="Göteborg">Göteborg</label>
+            <input type="checkbox" name="city" id="Göteborg">
+            <label for="Malmoe">Malmö</label>
+            <input type="checkbox" name="city" id="Malmö">
+            <label for="Uppsala">Uppsala</label>
+            <input type="checkbox" name="city" id="Uppsala">
+            <label for="Helsingborg">Helsingborg</label>
+            <input type="checkbox" name="city" id="Helsingborg">
+        </fieldset>
+
+        <section>
+            <ol id="render">
+
+            </ol>
+        </section>
+    </main>
+</body>
+</html>
